@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resep Jajanan Pasar</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="#home">Beranda</a>
+        <a href="#resep">Resep</a>
+        <a href="#kontak">Kontak</a>
+      </nav>
+    </header>
+
+    <main>
+      <div class="content-wrapper">
+        <article id="home">
+          <section>
+            <h2>Resep Jajanan Pasar Tradisional</h2>
+            <div class="grid-container">
+              <div class="jajanan">
+                <img
+                  src="src/klepon.jpg"
+                  alt="Kue Klepon"
+                  onclick="openModal('klepon')"
+                />
+                <p>Kue Klepon</p>
+              </div>
+              <div class="jajanan">
+                <img
+                  src="src/dadar.jpeg"
+                  alt="Kue Dadar Gulung"
+                  onclick="openModal('dadar-gulung')"
+                />
+                <p>Kue Dadar Gulung</p>
+              </div>
+              <div class="jajanan">
+                <img
+                  src="src/bogis.jpeg"
+                  alt="Kue Bogis"
+                  onclick="openModal('bogis')"
+                />
+                <p>Kue Bogis</p>
+              </div>
+              <div class="jajanan">
+                <img
+                  src="src/putu.jpeg"
+                  alt="Kue Putu Ayu"
+                  onclick="openModal('putu-ayu')"
+                />
+                <p>Kue Putu Ayu</p>
+              </div>
+              <div class="jajanan">
+                <img
+                  src="src/lumpang.jpeg"
+                  alt="Kue Lumpang"
+                  onclick="openModal('lumpang')"
+                />
+                <p>Kue Lumpang</p>
+              </div>
+              <div class="jajanan">
+                <img
+                  src="src/kuetete.jpg"
+                  alt="Kue Ape/Tete"
+                  onclick="openModal('ape-tete')"
+                />
+                <p>Kue Ape/Tete</p>
+              </div>
+              <div class="jajanan">
+                <img
+                  src="src/biji.jpeg"
+                  alt="Biji/Salak"
+                  onclick="openModal('Biji-salak')"
+                />
+                <p>Kue Biji Salak</p>
+              </div>
+              <div class="jajanan">
+                <img
+                  src="src/nagasari.jpeg"
+                  alt="Nagasari"
+                  onclick="openModal('nagasari')"
+                />
+                <p>Kue Nagasari</p>
+              </div>
+              <div class="jajanan">
+                <img
+                  src="src/mata.jpeg"
+                  alt="Kue Mata Roda"
+                  onclick="openModal('Mata-Roda')"
+                />
+                <p>Kue Mata Roda</p>
+              </div>
+              <div class="jajanan">
+                <img
+                  src="src/lapis.jpeg"
+                  alt="Lapis pandan"
+                  onclick="openModal('Lapis-pandan')"
+                />
+                <p>Kue Lapis Pandan</p>
+              </div>
+              <div class="jajanan">
+                <img
+                  src="src/putri.jpeg"
+                  alt="putri Mandi Pandan"
+                  onclick="openModal('Putri-Mandi-Pandan')"
+                />
+                <p>e Putri Mandi Pandan</p>
+              </div>
+              <div class="jajanan">
+                <img
+                  src="src/bikang.jpeg"
+                  alt="Kue Bikang Pandan"
+                  onclick="openModal('Bikang-Pandan')"
+                />
+                <p>Kue Bikang Pandan</p>
+              </div>
+            </div>
+          </section>
+        </article>
+
+        <aside>
+          <h3>Artikel Lainnya</h3>
+          <ul>
+            <li>
+              <a
+                href="https://resepkoki.id/tips-adonan-donat-lembut-dan-mengembang/"
+                >Tips Membuat Adonan Kue Lembut</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://www.briliofood.net/resep/15-resep-kue-basah-tradisonal-yang-terkenal-mudah-dan-praktis-200108y.html"
+                >Resep Kue Tradisional Mudah</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://food.detik.com/info-kuliner/d-6999846/18-minuman-tradisional-khas-indonesia-yang-enak-sudah-pernah-coba"
+                >Aneka Minuman Pasangan Jajanan</a
+              >
+            </li>
+          </ul>
+        </aside>
+      </div>
+    </main>
+
+    <footer>
+      <p>&copy; 2024 Resep Jajanan Pasar. Semua hak dilindungi.</p>
+      <nav>
+        <a href="#privasi">Kebijakan Privasi</a>
+        <a href="#syarat">Syarat dan Ketentuan</a>
+      </nav>
+    </footer>
+
+    <!-- Modals for recipes -->
+    <div id="modal-klepon" class="modal">
+      <div class="modal-content">
+        <span class="close" onclick="closeModal('klepon')">&times;</span>
+        <h2>Resep Sederhana Kue Klepon</h2>
+        <p>
+          Klepon adalah jajanan tradisional yang terbuat dari tepung ketan
+          dengan isian gula merah...
+        </p>
+        <!-- Tambahkan detail resep di sini -->
+        <ul>
+          <p>Bahan-Bahan</p>
+          <li>200 gram tepung ketan</li>
+          <li>50 gram tepung beras</li>
+          <li>250 gram ubi jalar (kukus dan haluskan)</li>
+          <li>200 ml air panas</li>
+          <li>2 sdm gula pasir</li>
+          <li>1/2 sdm pasta pandan (secukupnya)</li>
+          <li>Gula merah sisir halus (untuk isian)</li>
+        </ul>
+        <ol>
+        <p>
+          Langkah-langkah Pembuatan: 
+          <li>Campurkan tepung ketan, tepung beras, sedikit garam, dan ubi jalar yang sudah dihaluskan.</li>
+          <li>Tuang air panas sedikit-sedikit sambil diuleni hingga adonan bisa dipulung. </li>
+          <li>Ambil sejumput adonan, pipihkan, masukkan gula merah sisir, dan bulatkan. </li>
+          <li>Rebus air dalam panci hingga mendidih, masukkan bola-bola klepon, dan tunggu hingga mengapung. </li>
+          <li>Angkat klepon, gulingkan di kelapa parut yang sudah dikukus (jika ingin).</li>
+        </p>
+      </ol>
+      </div>
+    </div>
+
+    <div id="modal-dadar-gulung" class="modal">
+      <div class="modal-content">
+        <span class="close" onclick="closeModal('dadar-gulung')">&times;</span>
+        <h2>Resep Sederhana kue Dadar Gulung</h2>
+        <p>
+          Dadar gulung adalah jajanan tradisional yang terbuat dari tepung
+          terigu dengan isian kelapa parut dan gula merah...
+        </p>
+        <!-- Tambahkan detail resep di sini -->
+        <ul>
+          <p>Bahan-Bahan kulit Dadar Gulung</p>
+          <li>125 gram tepung terigu serbaguna</li>
+          <li>15 gram gula pasir</li>
+          <li>2 gram garam</li>
+          <li>1 butir telur ayam</li>
+          <li>90 ml santan kelapa</li>
+          <li>1230 ml jus daun pandan (atau air)</li>
+          <p>Bahan-Bahan Isian Kue Dadar Gulung</p>
+          <li>200 gram kelapa parut</li>
+          <li>100 gram gula merah (sisir)</li>
+          <li>2 sdm gula pasir</li>
+          <li>100 ml air</li>
+          <li>garam</li>
+        </ul>
+        <ol>
+        <p>
+          Langkah-langkah Pebuatan: 
+          <li>Campurkan semua bahan kulit dalam suatu wadah, aduk hingga halus dan rata.</li>
+          <li>Panaskan wajan anti lengket dan tuang adonan kulit, masak hingga matang.</li>
+          <li>Untuk isian, masak kelapa parut dengan gula merah, gula pasir, air, dan sedikit garam hingga mengental.</li>
+          <li>Ambil selembar kulit dadar, beri isian kelapa, gulung dan sajikan.</li>
+        </p>
+      </ol>
+      </div>
+    </div>
+
+    <div id="modal-bogis" class="modal">
+      <div class="modal-content">
+        <span class="close" onclick="closeModal('bogis')">&times;</span>
+        <h2>Resep Sederhana Kue Bogis</h2>
+        <p>
+          Kue Bogis adalah jajanan tradisional yang terbuat dari tepung ketan
+          dengan isian kacang hijau...
+        </p>
+        <!-- Tambahkan detail resep di sini -->
+        <ul>
+          <p>Bahan-Bahan Kue Bogis</p>
+          <li>250 gram tepung terigu serbaguna</li>
+          <li>150 gram gula pasir</li>
+          <li>100 gram mentega atau margarin</li>
+          <li>2 butir telur ayam</li>
+          <li>1 sdt baking powder</li>
+          <li>1/2 sdt garam</li>
+          <li>100 ml santan kelapa</li>
+          <li>2 sdm susu kental manis</li>
+          <li>1 sdt vanila (opsional)</li>
+          <li>1/2 sdt pandan (opsional)</li>
+          <p>Bahan-Bahan topping (opsional)</p>
+          <li>1 sdm mentega atau margarin</li>
+          <li>1 sdm gula pasir</li>
+          <li>1/2 sdm kelapa parut</li>
+          <li>1/2 sdt garam</li>
+          <li>1/2 sdt vanila (opsional)</li>
+        </ul>
+        <ol></ol>
+        <p>
+          Langkah-langkah Pembuatan: 
+          <li>Panaskan oven pada suhu 180°C.</li>
+          <li>Campurkan tepung terigu, gula pasir, dan baking powder dalam suatu wadah, aduk hingga rata.</li>
+          <li>Tambahkan mentega atau margarin, telur ayam, santan kelapa, susu kental manis, vanila, dan pandan (jika menggunakan), aduk hingga adonan menjadi halus dan rata.</li>
+          <li>uang adonan ke dalam loyang yang telah diolesi dengan mentega atau margarin.</li>T
+         <li> Jika ingin menambahkan topping, campurkan bahan-bahan topping dalam suatu wadah, aduk hingga rata, lalu taburkan ke atas adonan.</li>
+          <li>Masak dalam oven selama 25-30 menit atau hingga kue matang.</li>
+          <li>Angkat dan biarkan dingin sebelum dipotong.</li>
+        </p>
+      </ol>
+      </div>
+    </div>
+
+    <div id="modal-putu-ayu" class="modal">
+      <div class="modal-content">
+        <span class="close" onclick="closeModal('putu-ayu')">&times;</span>
+        <h2>Resep Sederhana Kue Putu Ayu</h2>
+        <p>
+          Putu Ayu adalah jajanan tradisional yang terbuat dari tepung terigu
+          dengan taburan kelapa parut di atasnya...
+        </p>
+        <!-- Tambahkan detail resep di sini -->
+        <ul>
+          <p>Bahan-Bahan Kue Putu ayu</p>
+          <li>250 gram tepung terigu </li>
+          <li>1/2 sendok teh garam</li>
+          <li>1/4 sendok teh baking powder</li>
+          <li>1/2 sendok teh gula pasir</li>
+          <li>1 butir telur ayam</li>
+          <li>100 ml santan kelapa</li>
+          <li>100 ml santan kelapa</li>
+          <li>1/4 sendok teh vanila (opsional)</li>
+          <li>Daun pandan untuk membungkus</li>
+          <p>Bahan-Bahan topping (opsional)</p>
+          <li>1 sdm gula merah</li>
+          <li>1 sdm gula pasir</li>
+          <li>1/2 sdm kelapa parut</li>
+          <li>1/4 sdt garam</li>
+          <li>1/4 sdt vanila (opsional)</li>
+        </ul>
+        <ol>
+        <p>
+          Langkah-langkah Pembuatan: 
+          <li>Campurkan tepung terigu, garam, baking powder, dan gula pasir dalam suatu wadah, aduk hingga rata.</li>
+          <li>Tambahkan telur ayam dan santan kelapa, aduk hingga adonan menjadi halus dan rata.</li>
+          <li>Jika menggunakan vanila, tambahkan ke dalam adonan dan aduk hingga rata.</li>
+         <li> Siapkan daun pandan untuk membungkus putu ayu. Pastikan daun pandan yang digunakan sudah bersih dan kering.</li>
+          <li>Tuang adonan ke dalam daun pandan, isi dengan jumlah yang cukup untuk membungkus adonan.</li>
+          <li>Kukus putu ayu selama 10-15 menit atau hingga matang.</li>
+          <li>Jika ingin menambahkan topping, campurkan bahan-bahan topping dalam suatu wadah, aduk hingga rata.</li>
+          <li>Setelah putu ayu matang, taburkan topping di atasnya.</li>
+        </p>
+      </ol>
+      </div>
+    </div>
+
+    <div id="modal-lumpang" class="modal">
+      <div class="modal-content">
+        <span class="close" onclick="closeModal('lumpang')">&times;</span>
+        <h2>Resep Sederhana Kue Lumpang</h2>
+        <p>
+          Kue Lumpang adalah jajanan tradisional yang terbuat dari tepung beras
+          dengan aroma pandan...
+        </p>
+        <!-- Tambahkan detail resep di sini -->
+         <ul>
+          <p>Bahan-Bahan Basah kue Lumpang</p>
+          <li>125 gr Gula pasir</li>
+          <li>100 ml Air</li>
+          <li>1 lembar daun Pandan/li>
+          <li>3 sdm (50 ml) Endapan daun Pandan</li>
+          <li>250 ml air suhu ruang</li>
+          <p> Bahan-Bahan kering Kue Lumpang</p>
+          <li>100 gr Tepung Beras Rose Brand</li>
+          <li>75 gr Tepung Tapioka Rose Brand</li>
+          <li>3 gr (1/2 sdt) Garam</li>
+          <li>1/4 sdt Baking Powder / Air Kapur Sirih</li>
+          <p>topping</p>
+          <li>100 gr Kelapa Parut</li>
+          <li>1 lembar daun Pandan</li>
+          <li>1/2 sdt Garam</li>
+         </ul>
+         <ol>
+          <p>Langkah-langkah Pembuatan
+          <li>Kukus Kelapa parut + daun pandan selama 15 menit. Matikan kompor, taburi garam, aduk rata. Siapkan tepung Beras Rose Brand dan Tepung Tapioka.</li>
+          <li>Masak 100 ml air + gula dan daun Pandan, sampai gula larut.</li>
+          <li>Matikan kompor, tambahkan 250 ml air dan cairan endapan daun Pandan, aduk rata.</li>
+          <li>Campur semua bahan kering kedalam bowl, tuang bahan basah secara bertahap sambil diaduk rata.</li>
+          <li>Saring adonan. Masukkan kedalam gelas ukur agar mudah saat menuang kedalam cetakan.</li>
+          <li>Olesi cetakan dengan sediki minyak, dan panaskan cetakan selama 2 menit.</li>
+          <li>Tuang adonan 3/4 cup kedalam cetakan yg sudah panas.</li>
+          <li>Kukus selama 15 menit dengan api besar.</li>
+          <li>Matikan kompor, biarkan kue 5 menit dalam cetakan.</li>
+          <li>Keluarkan dari cetakan, taburi kelapa parut.</li>
+          <li>Texture kue lembut kenyal.</li>
+        </p>
+         </ol>
+      </div>
+    </div>
+
+    <div id="modal-ape-tete" class="modal">
+      <div class="modal-content">
+        <span class="close" onclick="closeModal('ape-tete')">&times;</span>
+        <h2>Resep Sederhana Kue Ape/Tete</h2>
+        <p>
+          Kue Ape/Tete adalah jajanan tradisional yang terbuat dari tepung beras
+          dengan bentuk unik seperti topi...
+        </p>
+        <!-- Tambahkan detail resep di sini -->
+         <ul>
+          <p>Bahan-Bahan kue Ape/Tete</p>
+          <li>200 gram tepung beras</li>
+          <li>125 gram tepung terigu pro sedang</li>
+          <li>150 gram gula pasirr</li>
+          <li>1/2 sdt vanili</li>
+          <li>1/2 sdt garam</li>
+          <li>500 ml santan (2 santan kara 65 ml + air)</li>
+          <li>3/4 sdt baking powder</li>
+          <li>1/4 sdt soda kue </li>
+          <li>Secukupnya pasta pandan</li>
+         </ul>
+         <ol>
+          <p>Langkah-langkah Pembuatan
+          <li>
+            Siapkan wadah masukan, tepung beras, tepung terigu, garam, vanili, dan gula. Aduk hingga rata.</li>
+          <li>Tambahkan telur ayam dan santan kelapa, aduk hingga adonan menjadi halus dan rata.</li>
+          <li>Jika sudah, masukan santan secara bertahap aduk hingga rata sampai licin dan tidak ada yg bergerindil, dan masukan pasta pandan aduk hingga rata. Jika sudah rata tutup adonan menggunakan serbet selama 1 jam.</li>
+          <li>Jika sudah satu jam, masukan soda kue dan baking powder aduk hingga rata. Siapkan cetakan serabi, aku pakai wajan kecil.</li>
+          <li>Panaskan wajan jika sudah panas oleskan mentega. Kemudian masukan adonan dan puter hingga mengenai pinggiran wajan. Jika sudah tutup wajan masak dengan api sangat kecil hingga matang. Buka tutup lihat apa sudah matang blm jika sudah matang angkat dengan menggunakan sodet mini. Dan sajikan.</li>
+        </p>
+         </ol>
+      </div>
+    </div>
+
+    <div id="modal-Biji-salak" class="modal">
+      <div class="modal-content">
+        <span class="close" onclick="closeModal('Biji-Salak')">&times;</span>
+        <h2>Resep Sederhana Biji Salak</h2>
+        <p>
+          Biji salak adalah sejenis kue tradisional Indonesia yang terbuat dari tepung terigu, gula, dan santan kelapa. Biji salak memiliki bentuk yang unik, yaitu berupa bola-bola kecil yang memiliki permukaan kasar dan berwarna coklat keemasan. Biji salak memiliki rasa yang manis dan gurih, serta tekstur yang lembut dan kenyal.
+        </p>
+        <!-- Tambahkan detail resep di sini -->
+         <ul>
+          <p> Bahan-Bahan Biji-Salak</p>
+          <li>250 gr ubi</li>
+          <li>100 gr tepung tapiokar</li>
+          <li>Sedikit air/li>
+          <li>Pasta pandan</li>
+          <p>Bahan-Bahan Kuah Putih</p>
+          <li>500 ml santan</li>
+          <li>2 sendok tepung beras / maizena</li>
+          <li>1 lembar daun pandan</li>
+          <li>Sejumput garam</li>
+         </ul>
+         <ol>
+          <p>Langkah-langkah Pembuatan</p>
+          <li>Kukus ubi dan langsung haluskan saat panas, tambah pasta pandan dan air jika terlalu kering atau susah di bentuk. Bentuk bulat.</li>
+          <li>idihkan air untuk kuah lalu rebus biji salak sampai mengapung Masukkan gula pasir lalu pastikan biji salak matang matikan api lalu sisihkan.</li>
+          <li>Buat kuah santan, rebus santan sambil di aduk, sejumput garam dan pandan, jika mulai mendidih masukkan tepung yang sudah di larutkkan sedikit air.</li>
+          <li>Siap di sajikan.</li>
+         </ol>
+      </div>
+    </div>
+
+    <div id="modal-nagasari" class="modal">
+      <div class="modal-content">
+        <span class="close" onclick="closeModal('nagasari')">&times;</span>
+        <h2>Resep sederhana Kue Nagasari</h2>
+        <p>
+          Nagasari adalah jajanan tradisional yang terbuat dari tepung beras dan
+          santan dengan isian pisang...
+        </p>
+        <!-- Tambahkan detail resep di sini -->
+         <ul>
+          <p>Bahan-Bahan Kue Nagasari</p>
+          <li>85 gr tepung hunkwee</li>
+          <li>100 gram gula pasir</li>
+          <li>650 ml santan segar</li>
+          <li>80 gr susu kental manis</li>
+          <li>1 lembar daun pandan</li>
+          <li>3 tetes pewarna hijau muda</li>
+          <li>1/2 sdt pasta pandan</li>
+          <li>2 buah ubi rambat, kupas dan potong-potong</li>
+          <li>1/2 buah kelapa muda, kupas dan potong-potong</li>
+          <li>8 buah pisang kepok matang potong beberapa bagian
+          </li>
+         </ul>
+         <ol>
+          <p>Langkah-langkah Pembuatan
+         <li>Siapkan teflon, masukan tepung hunkwee,gula pasir,skm,santan segar,garam,1 lembar daun pandan,pasta pandan dan pewarna hijau muda.</li>
+         <li>Aduk semua bahan hingga tercampur rata, setelah rata, pindahkan ke atas kompor,lalu masak sambil terus diaduk hingga mengental, setelah kental kecilkan api, lalu masak hingga meletup - letup lalu angkat.</li>
+         <li>Siapkan pisang kepok yang sudah dikukus,lalu potong.</li>
+         <li>Letakan pisang ditengah plastik lembaran ukuran 16x16 cm,lalu beri adonan 1 sdm atau 1,5 sdm adonan hunkwee.</li>
+         <li>Lipat kedua sisi,tekuk dibagian ujung Hingga rapat, lakukan hingga selesai.</li>
+         <li>Nagasari Hunkwee siap disajikan.</li>
+        </p>
+      </ol>
+      </div>
+    </div>
+
+    <div id="modal-Mata-Roda" class="modal">
+      <div class="modal-content">
+        <span class="close" onclick="closeModal('Mata-Roda')">&times;</span>
+        <h2>Resep Sederhana Kue Mata Roda</h2>
+        <p>
+          Kue Mata Roda memiliki sejarah yang panjang dan telah menjadi bagian dari tradisi kuliner Indonesia selama berabad-abad. Kue ini dipercaya berasal dari Jawa dan telah menjadi salah satu kue tradisional yang paling populer di Indonesia.
+        </p>
+        <!-- Tambahkan detail resep di sini -->
+         <ul>
+          <p>Bahan-Bahan Kue Mata Roda</p>
+          <li>1 kg singkong parut (berat setrlah di parut)</li>
+          <li>2 sdm margarin di cairkan</li>
+          <li>200 gr gula pasir</li>
+          <li>1/2 sdt vanili bubuk</li>
+          <li>65 ml / 1 sachet santan instan</li>
+          <li>1/2 sdt garam</li>
+          <li>10 bh pisang raja</li>
+          <p>Bahan Taburan Kelapa</p>
+          <li>100 gr kelapa parut</li>
+          <li>1/2 sdt garam</li>
+          <p>Bahan Tambahan</p>
+          <li>secukupnya daun pisang</li>
+          <li>secukupnya pewarna makanan</li>
+         </ul>
+         <ol>
+          <p>Langkah-langkah Pembuatan
+            <li>Siapakan pisang raja matang lalu kupas</li>
+            <li>Siapkan singkong yg sdh di parut, margarin di cairkan dan bahan lainnya. Masukkan semua bahan A aduk hingga tercampur rata.</li>
+            <li>Beri adonan dgn pewarna sesuai yg kita suka. kebetulan pewarna sy tinggal hijau saja jadi sy beri warna hijau semua. ambil daun pisang lalu tuang 3 sdm adonan singkong dan ratakan, letakkan pisang di tengahnya lalu gulung dan sematkan lidi pada ke dua ujung nya. lakukan hingga semua adonan terbungkus daun pisang.</li>
+            <li>Kukus selama 30 menit bersama dgn bahan taburan kelapa parut.</li>
+            <li>Potong potong dan sajikan dgn taburan kelapa parut.</li>
+          </p>
+         </ol>
+      </div>
+    </div>
+
+    <div id="modal-Lapis-pandan" class="modal">
+      <div class="modal-content">
+        <span class="close" onclick="closeModal('Lapis-pandan')">&times;</span>
+        <h2>Resep Lapis Pandan</h2>
+        <p>
+          Kue Ku adalah jajanan tradisional yang terbuat dari tepung ketan
+          dengan isian kacang hijau yang dicetak dalam cetakan kue ku...
+        </p>
+        <!-- Tambahkan detail resep di sini -->
+      </div>
+    </div>
+
+    <div id="modal-Putri-Mandi-Pandan" class="modal">
+      <div class="modal-content">
+        <span class="close" onclick="closeModal('modal-Putri-Mandi-Pandan')"
+          >&times;</span
+        >
+        <h2>Resep sederhana Putri Mandi Pandan</h2>
+        <p>
+          Putri Mandi Pandan adalah sejenis kue tradisional Indonesia yang terbuat dari tepung terigu, gula, dan santan kelapa. Kue ini memiliki bentuk yang unik, yaitu berupa kue yang dilapisi dengan daun pandan dan berisi campuran santan kelapa dan gula. Putri Mandi Pandan memiliki rasa yang manis dan gurih, serta tekstur yang lembut dan kenyal.
+        </p>
+        <!-- Tambahkan detail resep di sini -->
+         <ul>
+          <p>Bahan-Bahan Sederhana Putri mANdi Pandan</p>
+          <li>200 gr tepung ketan</li>
+          <li>50 gr tepung beras</li>
+          <li>50 gr ubi kukus haluskan</li>
+          <li>1/2 sendok teh garam</li>
+          <li>200 ml air hangat kuku</li>
+          <li>Pewarna pandan atau yang lainnya</li>
+          <p>Bahan unti kelapa</p>
+          <li>1/2 butir kelapa parut setengah tua</li>
+          <li>150 gula jawa sisir halus</li>
+          <li>1/2 sdt garam</li>
+          <li>50 ml air</li>
+          <p>Bahan Vla santan</p>
+          <li>500 ml santan kental</li>
+          <li>1 sdm tepung beras</li>
+          <li>1 sdm maizena</li>
+          <li>1 sdt garam</li>
+          <li>1 sdm gula pasir</li>
+         </ul>
+         <ol>
+          <p>Langkah-langkah Pembuatan
+            <li>Masak bahan unti : si sih kan</li>            
+            <li>Bahan kuah : masak semua bahan sampai meletup2 lalu sisih kan.</li>
+            <li>Kulit: campur semua bahan jadi satu, hingga menjadi adonan yang bisa di pulung, bagi menjadi 3 adonan beri warna sesuai selera.</li>
+            <li>Ambil sedikit adonan kulit sekitar 20 gr beri isian, bulat kan kembali.lakukan hingga habis...masukkan ke cetakan kue talam yg di oles minyak Lalu kukus hingga matang.</li>
+            <li>Siap kan takir atau wadah. Taruh bugis mandi dlm wadah lalu siram dgn kuah santan.</li>
+          </p>
+         </ol>
+      </div>
+    </div>
+
+    <div id="modal-Bikang-Pandan" class="modal">
+      <div class="modal-content">
+        <span class="close" onclick="closeModal('Bikang-Pandan')">&times;</span>
+        <h2>Resep Kue Bikang Pandan</h2>
+        <p>
+          Kue Bikang Pandan adalah sejenis kue tradisional Indonesia yang terbuat dari tepung terigu, gula, dan santan kelapa. Kue ini memiliki bentuk yang unik, yaitu berupa kue yang dibuat dengan cara menggoreng adonan yang telah dipotong-potong menjadi bentuk yang bulat dan pipih. Kue Bikang Pandan memiliki rasa yang manis dan gurih, serta tekstur yang lembut dan kenyal.
+        </p>
+        <!-- Tambahkan detail resep di sini -->
+         <ul>
+          <p>Bahan-Bahan Kue Bikang Pandan</p>
+          <li>125 gr tepung beras</li>
+          <li>125 gr gula pasir</li>
+          <li>1/4 sdt garam</li>
+          <li>10 lembar daun pandan</li>
+          <li>200 ml air</li>
+          <li>300 ml santan</li>
+          <li>1 sdm minyak goreng</li>
+          <li>1/2 sdt pasta pandan (optional)</li>
+          <li>Secukupnya santan kental untuk topping (optional)</li>
+         </ul>
+         <ol> 
+          <p>Langkah-langkah Pembuatan
+            <li>Blender daun pandan dan air, saring lalu campur dengan santan. Masak santan sampai pinggiran di panci bergelembung matikan kompor.</li>
+            <li>Campur tepung beras, terigu, gula pasir, garam aduk rata lalu tuang santan sedikit demi sedikit (kondisi santan panas cenderung hangat)</li>
+            <li>Saring adonan, tutup dan diamkan selama 1jam. Setelah 1jam,beri sedikit minyak goreng, aduk rata</li>
+            <li>Panaskan cetakan, dengan api sedang. Beri olesan air garam, lalu tuang adonan, masak sampai ada serat/gelembung udara/bolong-bolong atasnya. Beri santan kental setelah matang, lalu cungkil dengan ujung pisau, alhamdulilah berhasil walaupun masih belum maximal</li>
+          </p>
+         </ol>
+      </div>
+    </div>
+
+    <script src="scripts.js"></script>
+  </body>
+</html>
